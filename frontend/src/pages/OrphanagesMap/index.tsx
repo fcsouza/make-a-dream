@@ -22,13 +22,13 @@ const OrphanagesMap: React.FC = () => {
           <p>Muitas crianças estão esperando a sua visita</p>
         </header>
         <footer>
-          <strong>Natal</strong>
-          <span>Rio Grande do Norte</span>
+          <strong>Rio de Janeiro</strong>
+          <span>Centro</span>
         </footer>
       </motion.aside>
 
       <Map
-        center={[-5.7999146, -35.2922842]}
+        center={[-22.912357, -43.195558]}
         style={{ width: '100%', height: '100%' }}
         zoom={13}
       >

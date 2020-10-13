@@ -40,8 +40,8 @@ const Landing: React.FC = () => {
           animate="final"
           variants={slideFromLeft}
         >
-          <strong>Natal</strong>
-          <span>Rio Grande do Norte</span>
+          <strong>Rio de Janeiro</strong>
+          <span>Centro</span>
         </motion.section>
 
         <Link to="/orphanages">
