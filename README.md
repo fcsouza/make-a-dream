@@ -48,7 +48,7 @@ Instruções de como acessar as rotas e instalação.
 $ git clone https://github.com/fcsouza/make-a-dream
 
 # Go into the repository
-$ cd ecoleta/make-a-dream
+$ cd make-a-dream/frontend
 
 # Install dependencies
 $ yarn install
