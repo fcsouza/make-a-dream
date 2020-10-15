@@ -14,4 +14,4 @@ app.use(routes);
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 app.use(AppError.errorHandler);
 
-app.listen(1337);
+app.listen(3333);
