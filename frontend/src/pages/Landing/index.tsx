@@ -29,7 +29,8 @@ const Landing: React.FC = () => {
         <motion.main
           initial="initial"
           animate="final"
-          variants={slideFromRight}
+          exit="exit "
+          variants={slideFromLeft}
         >
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
@@ -38,13 +39,13 @@ const Landing: React.FC = () => {
         <motion.section
           initial="initial"
           animate="final"
-          variants={slideFromLeft}
+          variants={slideFromRight}
         >
           <strong>Rio de Janeiro</strong>
-          <span>Centro</span>
+          <span>Zona Norte</span>
         </motion.section>
 
-        <Link to="/orphanages">
+        <Link to="/orphanages/map">
           <FiArrowRight size={26} color="rgba(0,0,0,0.6)" />
         </Link>
       </motion.div>
