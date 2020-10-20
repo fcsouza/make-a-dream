@@ -15,6 +15,8 @@
 [![Made By](https://img.shields.io/badge/Made%20By-Fabricio%20Cavalcante-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=make-a-dream&uri=https%3A%2F%2Fraw.githubusercontent.com%2Ffcsouza%2Fmake-a-dream%2Fmain%2F.github%2FInsomnia.json)
+
 </div>
 
 ## 📝 Conteúdo
