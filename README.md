@@ -44,24 +44,59 @@ Instruções de como acessar as rotas e instalação.
 
 ### ⚒ Instalando <a name = "installing"></a>
 ```bash
-# Clone this repository
-$ git clone https://github.com/fcsouza/make-a-dream
+## 1. Clonar repositório
+git clone https://github.com/fcsouza/make-a-dream.git
 
-# Go into the repository
-$ cd make-a-dream/frontend
+## 2. Entrar na pasta
+cd make-a-dream
 
-# Install dependencies
-$ yarn install
+## 3. Instalar as dependências
+cd backend && yarn install
+cd web && yarn install
+cd mobile && yarn install
+
+## 4. Colocar suas configurações do banco de dados
+cd backend 
+ormconfig.json (Mudar as configurações)
+
+## 4. Rodar a aplicação
+cd backend && yarn dev (http://localhost:3333)
+cd web && yarn start (http://localhost:3000)
+cd mobile && yarn start (Escanear o QR CODE com o aplicativo do Expo)
 ```
 
 ## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
 
-- [Express](https://expressjs.com/) - Server Framework
-- [React](https://pt-br.reactjs.org/) - A declarative, efficient, and flexible JavaScript library for building user interfaces
-- [React Native](https://reactnative.dev/) - A framework for building native apps using React
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Nodemon](https://www.npmjs.com/package/nodemon) - Simple monitor script for use during development
-- [Sucrase](https://www.npmjs.com/package/sucrase) - Sucrase is an alternative to Babel that allows super-fast development builds
+Frontend Web
+- [ReactJS](https://pt-br.reactjs.org)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Leaflet](https://leafletjs.com)
+- [React Leaflet](https://react-leaflet.js.org)
+- [Toastify](https://www.npmjs.com/package/react-toastify)
+- [Styled Components](styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Typescript](typescriptlang.org/)
+- [React Router](https://reactrouter.com/)
+
+Frontend Mobile
+- [React Native](https://reactnative.dev)
+- [Expo](https://expo.io)
+- [React Navigation](https://reactnavigation.org)
+- [Typescript](typescriptlang.org/)
+- [Styled Components](styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [React Native Maps](https://github.com/react-native-maps/react-native-maps)
+
+Backend
+- [NodeJS](https://nodejs.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Typescript](https://typescriptlang.org/)
+- [TypeORM](https://typeorm.io#/)
+- [Postgres](https://www.postgresql.org)
+- [Docker](https://www.docker.com)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Yup](https://www.npmjs.com/package/yup)
 
 ## 🔖 Layout <a name = "layout"></a>
 Para acessar o layout [Figma](https://www.figma.com/file/2ilsR9yMOtXjiDXrDcyGz6/Happy-Web-(Copy)).
